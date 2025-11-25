@@ -311,13 +311,21 @@ git clone https://github.com/springboardmentor587-star/AI-Based-Automated-Conten
 cd AI-Content-Marketing-Optimizer
 ```
 
-### 2. Install dependencies
+### **2. Create & Activate Virtual Environment**
+
+```
+python -m venv venv
+source venv/bin/activate   # Mac/Linux
+venv\Scripts\activate      # Windows
+```
+
+### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Configure environment
+### 4. Configure environment
 
 Place your credentials inside:
 
@@ -326,16 +334,59 @@ Place your credentials inside:
 .env
 ```
 
+### **5. Environment Variables**
+
+Create `.env` file:
+
+```
+# Groq
+GROQ_API_KEY=your_groq_api_key
+GROQ_MODEL=llama-3.3-70b-versatile
+GROQ_TEMPERATURE=0.7
+
+# Google Gemini
+GEMINI_API_KEY=your_gemini_api_key
+GEMINI_MODEL=gemini-1.5-flash
+
+# Twitter / X API Keys
+TWITTER_API_KEY=your_api_key
+TWITTER_API_SECRET=your_secret_api_key
+TWITTER_ACCESS_TOKEN=your_access_token
+TWITTER_ACCESS_SECRET=your_access_secret_token
+TWITTER_BEARER_TOKEN=your_bearer_token
+
+# Your Google Sheet ID from the URL:
+# https://docs.google.com/spreadsheets/d/<THIS_PART>/edit
+GOOGLE_SHEET_ID=your_sheet_id
+
+# Path to credentials JSON 
+GOOGLE_APPLICATION_CREDENTIALS=credentials/service_account.json
+
+#slack
+SLACK_WEBHOOK_URL = your_slack_webhook_url
+
+MODEL_DIR=models
+METRICS_RETRY_LIMIT=3
+
+STREAMLIT_DEBUG=false
+
+ENABLE_TRENDING=true
+ENABLE_SENTIMENT=true
+ENABLE_SHEETS_LOGGING=true
+ENABLE_SLACK_NOTIFICATIONS=true
+
+```
+
 (*Ignored automatically via .gitignore*)
 
 
-### 4. Run the Streamlit app
+### 6. Run the Streamlit app
 
 ```bash
 streamlit run streamlit_app.py
 ```
 
-### 5. Or run the full pipeline
+### 7. Or run the full pipeline
 
 ```bash
 python run.py
