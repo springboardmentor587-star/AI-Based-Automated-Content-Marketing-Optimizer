@@ -49,7 +49,7 @@ A beautiful Streamlit dashboard for content generation, sentiment analysis, A/B 
 
 ## 🧠 System Architecture (High-Level)
 
-### 🔹 1. **Content Engine**
+### 1. **Content Engine**
 
 **Files:**
 
@@ -65,7 +65,7 @@ A beautiful Streamlit dashboard for content generation, sentiment analysis, A/B 
 
 ---
 
-### 🔹 2. **Sentiment & Emotion Engine**
+### 2. **Sentiment & Emotion Engine**
 
 **File:** `sentiment_analyzer.py`
 
@@ -80,7 +80,7 @@ Key features:
 
 ---
 
-### 🔹 3. **A/B Testing Coach**
+### 3. **A/B Testing Coach**
 
 **File:** `ab_coach.py`
 
@@ -94,7 +94,7 @@ Capabilities:
 
 ---
 
-### 🔹 4. **Metrics Hub & Tracker**
+### 4. **Metrics Hub & Tracker**
 
 **Files:**
 
@@ -111,7 +111,7 @@ Functions:
 
 ---
 
-### 🔹 5. **ML Engine (Model Training + Auto Retrainer)**
+### 5. **ML Engine (Model Training + Auto Retrainer)**
 
 **Files:**
 
@@ -128,7 +128,7 @@ Features:
 
 ---
 
-### 🔹 6. **Integrations Layer**
+### 6. **Integrations Layer**
 
 **Files:**
 
@@ -144,7 +144,7 @@ Used for:
 
 ---
 
-### 🔹 7. **Interactive Streamlit Dashboard**
+### 7. **Interactive Streamlit Dashboard**
 
 **File:** `streamlit_app.py`
 
@@ -160,7 +160,7 @@ Tabs include:
 
 ---
 
-### 🔹 8. **Pipeline Orchestration**
+### 8. **Pipeline Orchestration**
 
 **File:** `run.py`
 Runs the complete workflow:
