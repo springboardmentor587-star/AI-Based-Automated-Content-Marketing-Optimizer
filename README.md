@@ -10,7 +10,7 @@ The **AI-Based Automated Content Marketing Optimizer** is an advanced AI system 
 
 The system integrates:
 
-* **OpenAI / LLaMA LLMs** for content generation
+* **LLaMA LLMs/Gemini api** for content generation
 * **Advanced Sentiment Analysis** & **Emotion Detection**
 * **Trend-based Optimization Engine**
 * **A/B Testing Coach**
@@ -19,7 +19,6 @@ The system integrates:
 * **Auto-Retrainer** for continuous ML model improvement
 * **Interactive Streamlit Dashboard**
 
-📄 *Reference: Project Summary*
 
 
 ---
