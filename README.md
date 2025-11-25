@@ -385,6 +385,7 @@ The **AutoRetrainer** also saves:
 - **Student Name 4** — Testing & QA Engineer  
 - **Student Name 5** — Documentation Assistant  
 
+---
 
 ## 🤝 Contributing
 
