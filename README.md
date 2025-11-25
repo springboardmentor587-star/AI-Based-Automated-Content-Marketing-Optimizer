@@ -348,12 +348,12 @@ python run.py
 *(Managed by `run.py`)*
 
 
-1️⃣ Generate content variations
-2️⃣ Optimize using trend analysis
-3️⃣ Sentiment & emotion scoring
-4️⃣ A/B evaluation
-5️⃣ Push metrics to Google Sheets
-6️⃣ Auto-retrain ML model
+1️⃣ Generate content variations <br>
+2️⃣ Optimize using trend analysis <br>
+3️⃣ Sentiment & emotion scoring <br>
+4️⃣ A/B evaluation <br>
+5️⃣ Push metrics to Google Sheets <br>
+6️⃣ Auto-retrain ML model <br>
 7️⃣ Slack summary notification
 
 ---
