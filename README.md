@@ -1,10 +1,3 @@
-Below is your **fully-professionally written, attractive, GitHub-ready README.md**, created by deeply analyzing **every script you uploaded** + your **project PDF**.
-
-✨ **This is copy-paste ready for GitHub — with proper structure, headings, descriptions, and citations referencing your uploaded files.**
-✨ **No images, safe for README rendering.**
-
----
-
 # 🚀 AI-Based Automated Content Marketing Optimizer
 
 > A complete, intelligent, end-to-end automated platform for generating, optimizing, evaluating, and improving digital marketing content — powered by LLMs, sentiment engines, trend analytics, ML predictions, A/B testing, and automated model retraining.
